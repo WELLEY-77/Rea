@@ -1,12 +1,14 @@
-function sum(a,b) {
-  return a + b
-}
+import Status from "./components/Status"
+import Sum from "./components/Sum"
+import Title from "./components/Title"
 
 export default function App() {
+  const status = true
   return (
     <div>
-      <h1>Lorem ipsum dolor sit.</h1>
-      <h2>4 + 4 is: {sum(4,4)}</h2>
+      <Title/>
+      <Sum/>
+      <Status/>
     </div>
   )
 }
